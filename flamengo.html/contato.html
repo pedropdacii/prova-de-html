@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Contato - Flamengo</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Contato</h1>
+
+        <p>
+            Formulário sobre o tema Flamengo.
+        </p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Início</a>
+
+        <a href="historia.html">História</a>
+
+        <a href="contato.html">Contato</a>
+
+    </nav>
+
+
+    <main>
+
+        <section>
+
+            <h2>Formulário</h2>
+
+            <form>
+
+                <label for="nome">
+                    Nome:
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required>
+
+                <br><br>
+
+
+                <label for="data">
+                    Data:
+                </label>
+
+                <input
+                    type="date"
+                    id="data"
+                    name="data"
+                    required>
+
+                <br><br>
+
+
+                <label for="arquivo">
+                    Envie uma imagem:
+                </label>
+
+                <input
+                    type="file"
+                    id="arquivo"
+                    name="arquivo">
+
+                <br><br>
+
+
+                <label for="nivel">
+                    Quanto você conhece a história do Flamengo?
+                </label>
+
+                <input
+                    type="range"
+                    id="nivel"
+                    name="nivel"
+                    min="0"
+                    max="10"
+                    value="5">
+
+                <br><br>
+
+
+                <label for="competicao">
+                    Competição favorita:
+                </label>
+
+                <input
+                    list="competicoes"
+                    id="competicao"
+                    name="competicao"
+                    placeholder="Escolha uma competição">
+
+
+                <datalist id="competicoes">
+
+                    <option value="Campeonato Brasileiro">
+
+                    <option value="Copa do Brasil">
+
+                    <option value="Copa Libertadores">
+
+                    <option value="Campeonato Carioca">
+
+                </datalist>
+
+                <br><br>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!--
+As tags que achei mais complicadas foram <datalist>,
+<progress>, <meter>, <bdi> e <details>.
+-->
+
+
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Projeto acadêmico sobre o Flamengo.
+        </p>
+
+    </footer>
+<time datetime="2026-09-28">
+    28 de setembro de 2026
+</time>
+
+</body>
+
+</html>
